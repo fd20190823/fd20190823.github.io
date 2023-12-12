@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap');
+/* begin reset */
+html, body, h1, h2, h3, a, p, ol, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style: none;
+    text-decoration: none;
+}
+/* end reset */
+@viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+html {
+    background: #001010;
+    color: #eee;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.75vw;
+}
+@media all and (min-width:800px) { html {font-size: 16px;} }
+body {
+    margin: 0 auto;
+    padding: 1rem;
+}
+h1, h2, h3 {
+    text-align: center;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    font-stretch: 125%;
+}
+h1 {
+    font-size: 6rem;
+    font-weight: 800;
+}
+h2 {
+    font-size: 5rem;
+}
+h3 {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+div {
+    display: inline-flex;
+}
+div.release {
+    width: 100%;
+    justify-content: center;
+}
+.album-cover {
+    /* float: left; */
+    width: 53%;
+    max-width: 420px;
+    padding: 1rem;
+}
+.track-list {
+    /* float: left; */
+    width: 30%;
+    max-width: 240px;
+    padding: 1rem;
+    align-items: center;
+}
+ul {
+    font-stretch: 62%;
+    font-size: 1.9rem;
+    line-height: 1.2;
+}
+img {
+    width: 100%;
+    object-fit: contain;
+}
+a {
+    color: #77eeee;
+}
+li.lyrics {
+    font-weight: 700;
+}
