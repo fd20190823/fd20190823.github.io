@@ -19,7 +19,7 @@ html {
     background: #001010;
     color: #eee;
     font-family: 'Archivo', sans-serif;
-    font-size: 1.75vw;
+    font-size: 2vw;
 }
 @media all and (min-width:800px) { html {font-size: 16px;} }
 body {
